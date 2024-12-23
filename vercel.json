@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"builds": [
-	  { "src": "app.py", "use": "@vercel/python" }
+	  { "src": "contact_qufc.py", "use": "@vercel/python" }
 	],
 	"routes": [
 	  { "src": "/(.*)", "dest": "contact_qufc.py" }
